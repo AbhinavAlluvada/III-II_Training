@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="top">
+        <nav class="nav container">
+            <div class="nav__logo">My<span>Portfolio</span></div>
+
+            <button class="nav__toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav__links">
+                <li><a href="#hero" class="nav__link active">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <p class="hero__hello">Hello, I’m</p>
+                    <h1 class="hero__title">Abhinav Alluvada</h1>
+                    <p class="hero__subtitle">Aspiring Software Developer | Problem Solver | Tech Enthusiast</p>
+
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="#contact" class="btn btn--ghost">Contact Me</a>
+                    </div>
+
+                    <div class="hero__socials">
+                        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    </div>
+                </div>
+
+                <div class="hero__image">
+                    <img src="image.jpg" alt="Profile photo" class="hero__photo">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container section__content">
+                <h2 class="section__title">About Me</h2>
+                <p class="section__subtitle">A short introduction</p>
+
+                <div class="about__grid">
+                    <div class="about__text">
+                        <p>
+                            I am a passionate developer who enjoys building clean, efficient, and user-friendly
+                            applications. I love solving challenging problems and constantly learning new technologies.
+                        </p>
+                        <p>
+                            My interests include web development, system design, and exploring how software can
+                            improve everyday life for people.
+                        </p>
+                    </div>
+                    <div class="about__details">
+                        <ul>
+                            <li><strong>Name:</strong> Your Name</li>
+                            <li><strong>Location:</strong> Your City, Your Country</li>
+                            <li><strong>Email:</strong> youremail@example.com</li>
+                            <li><strong>Availability:</strong> Open to opportunities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section--alt" id="skills">
+            <div class="container section__content">
+                <h2 class="section__title">Skills</h2>
+                <p class="section__subtitle">Technologies and tools I work with</p>
+
+                <div class="skills__grid">
+                    <div class="skill__card">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 / Flexbox / Grid</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React (optional)</li>
+                        </ul>
+                    </div>
+                    <div class="skill__card">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>REST APIs</li>
+                            <li>Authentication basics</li>
+                        </ul>
+                    </div>
+                    <div class="skill__card">
+                        <h3>Tools & Others</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Linux / CLI basics</li>
+                            <li>Problem Solving (DSA)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container section__content">
+                <h2 class="section__title">Projects</h2>
+                <p class="section__subtitle">Some of my recent work</p>
+
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <h3>Project One</h3>
+                        <p>
+                            Short description of the project. What it does, what tech you used, and why it’s cool.
+                        </p>
+                        <p class="project__tech">Tech: HTML, CSS, JavaScript</p>
+                        <div class="project__links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Live</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <h3>Project Two</h3>
+                        <p>
+                            Short description of the project. Mention any interesting challenges or features.
+                        </p>
+                        <p class="project__tech">Tech: React, Node.js</p>
+                        <div class="project__links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Live</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <h3>Project Three</h3>
+                        <p>
+                            Short description of the project. Focus on what problem it solves.
+                        </p>
+                        <p class="project__tech">Tech: Python, Flask</p>
+                        <div class="project__links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Live</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section--alt" id="contact">
+            <div class="container section__content">
+                <h2 class="section__title">Contact</h2>
+                <p class="section__subtitle">Let’s work together</p>
+
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <p>
+                            Whether you have a question, a project idea, or just want to say hello, feel free to
+                            reach out. I’ll do my best to respond as soon as possible.
+                        </p>
+                        <ul>
+                            <li><strong>Email:</strong> youremail@example.com</li>
+                            <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+                            <li><strong>Location:</strong> Your City, Your Country</li>
+                        </ul>
+                    </div>
+
+                    <form class="contact__form" id="contactForm">
+                        <div class="form__group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your message..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                        <p class="form__status" id="formStatus"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+            <a href="#top" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
