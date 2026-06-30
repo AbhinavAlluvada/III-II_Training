@@ -13,7 +13,7 @@ class taketwo1 extends Thread{
 public class taketwo{
     public static void main(String args[]){
         taketwo1 t1 = new taketwo1();
-        taketwo1 t2 = new taketwo1();
+        // taketwo1 t2 = new taketwo1();
 
         Thread t = new Thread(t1);
         t.start();
